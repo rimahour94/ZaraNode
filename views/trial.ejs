@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>trial</title>
+    <style>
+      body {
+        
+        background-color: rgb(176, 200, 201);
+      }
+      img{
+        width: 100px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="products">
+
+      <% items.clothes.forEach(item => {%>
+      <div>
+        <img src="/image/<%=item.imgName %>"  alt=""> <br>
+    <span><%= item.details %></span> <br>
+    <span><%= item.price %> </span> 
+  </div>
+    <% }); %>
+    
+    </div>
+    <div class="products">
+      <% items.size.forEach(item => {%>
+        <div>
+          <li><%=item.s%></li>
+        </div>
+    
+
+    <% }); %>
+    
+    </div>
+
+   
+  </body>
+</html>
+<script src="/trial.js"></script>

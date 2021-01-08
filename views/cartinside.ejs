@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cartinside</title>
+    <link rel="stylesheet" href="/static/css/collection.css" />
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+  <body>
+    <div id="loading"></div>
+    <div class="nav-women-skirt inside-nav">
+      <div class="burger-woman-skirt">
+        <hr class="womenskirthr" />
+        <hr class="womenskirthr" />
+        <hr class="womenskirthr" />
+      </div>
+      <div class="womenskirtzara">
+        <p class="womenskirtzarapara">ZARAA</p>
+      </div>
+      <div class="womenskirtsearch">
+        <p class="womenskirtsearchpara">
+          SEARCH
+          <input type="text" class="womenskirtsearchinput" />
+        </p>
+        <div class="container-women-skirt-login-help-cart">
+          <div class="women-skirt-login">
+            <p class="womenskirt-loginhelp-para">LOGIN</p>
+            <p class="womenskirt-loginhelp-para">HELP</p>
+          </div>
+          <div class="women-skirt-cart cartbig">
+            <img
+              class="women-skirt--cart-image"
+              src="/static/image/icons8-online-shopping-100.png"
+              alt=""
+            />
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-cart-inside">
+      <div class="shopping-bag-h1">
+        <h1 class="shopping-bag-h1">
+          SHOPPING BAG
+        </h1>
+      </div>
+      <div class="container-your-cart-items"></div>
+    </div>
+    <hr class="cartinside-footer" />
+    <div class="container-footer-for-price">
+      <div class="goback-button-container">
+        <button class="goback-button">Go Back</button>
+      </div>
+
+      <div class="container-items-total-amount">
+        <h1 class="heading-item-total-price" style="margin-bottom: -8px;">
+          TOTAL ₹ <span class="TOTAL-amount"></span>
+        </h1>
+        <p class="inculding-gst" style="text-align: center; color: gray;">
+          Including GST
+        </p>
+      </div>
+
+      <div class="continue-button-container">
+        <button class="goback-button continue">
+          Continue
+        </button>
+      </div>
+    </div>
+<script>
+  const checkout=document.querySelector(".continue")
+
+const stripe=Stripe("pk_test_51HL3XbJZ3nkvK0rCCFotW8vYL4v8qom9amnX21n7JHEVsZPxbS6GlCYr8yV5OtvAbAxrEnKZxvVI0mM5zE780fRb00JiilBpDU")
+const productSelections={};
+checkout.addEventListener("click",e=>{
+  e.preventDefault()
+  return fetch('/create-checkout-session',{
+    method:"POST",
+    headers:{
+      'content-type':'application/json'
+    },
+    body:JSON.stringify({
+      
+      productSelections:productSelections,
+    }),
+  }).then(function(result) {
+    return result.json();
+  }).then(function(data) {
+    stripe.redirectToCheckout({sessionId:data.sessionId}).then(handleResult())
+
+  })
+})
+
+const handleResult=function(result) {
+  if(result.error){
+    var displayError=document.getElementById('error')
+    displayError.textContent=result.error.message
+  }
+}
+  </script>
+
+  </body>
+</html>
+
+
+<script src="/static/js/Largecart.js"></script>

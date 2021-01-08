@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>collection</title>
+    <!-- <link rel="stylesheet" href="/static/css/collection.css" /> -->
+    <link rel="stylesheet" href="/static/css/collection.css" />
+  </head>
+  <body>
+    <div class="women-collection-skirt" id="womenskirtmain-id">
+      <div class="nav-women-skirt">
+        <div class="burger-woman-skirt">
+          <hr class="womenskirthr" />
+          <hr class="womenskirthr" />
+          <hr class="womenskirthr" />
+        </div>
+        <div class="womenskirtzara">
+          <p class="womenskirtzarapara">ZARA</p>
+        </div>
+        <div class="womenskirtsearch">
+          <p class="womenskirtsearchpara">
+            SEARCH
+            <input type="text" class="womenskirtsearchinput" />
+          </p>
+          <div class="container-women-skirt-login-help-cart">
+            <div class="women-skirt-login">
+              <p class="womenskirt-loginhelp-para">LOGIN</p>
+              <p class="womenskirt-loginhelp-para">HELP</p>
+            </div>
+            <div class="women-skirt-cart">
+              <img
+                class="women-skirt--cart-image"
+                src="/static/image/icons8-online-shopping-100.png"
+                alt=""
+              />
+            </div>
+
+            <!-- CART PAGE START -->
+            <!-- <div class="conatiner-cart-collection" id="item1">
+              <div class="container-clothes">
+                <div class="cart-collection-images">
+                  <img
+                    src="/static/image/whiteshirt.jpg"
+                    alt=""
+                    class="cart-images"
+                    id="item1img"
+                  />
+                  <a href="" class="cart-anchor-clothes-details"
+                    >RIPPED SKINNY JEANS <br />
+                    <span class="cart-collecton-span">  2,790.00</span>
+                  </a>
+                </div>
+              </div>
+              <div class="container-clothes">
+                <div class="cart-collection-images">
+                  <img
+                    src="/static/image/maroonshirt.jpg"
+                    alt=""
+                    class="cart-images"
+                  />
+                  <a href="" class="cart-anchor-clothes-details"
+                    >RIPPED SKINNY JEANS <br />
+                    <span class="cart-collecton-span">  2,790.00</span>
+                  </a>
+                </div>
+              </div>
+              <div class="container-clothes">
+                <div class="cart-collection-images">
+                  <img
+                    src="/static/image/blueshirt.jpg"
+                    alt=""
+                    class="cart-images"
+                  />
+                  <a href="" class="cart-anchor-clothes-details"
+                    >RIPPED SKINNY JEANS <br />
+                    <span class="cart-collecton-span">  2,790.00</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="see-shopping-basket-container">
+                <button class="see-shopping-cart-button">
+                  SEE SHOPPING BASKET
+                </button>
+              </div>
+            </div> -->
+
+            <!-- CART PAGE AND -->
+          </div>
+        </div>
+      </div>
+      
+      <div class="women-clothes-type">
+        <div class="women-clothes-type-ul">
+          <ul class="women-clothes-type-ul-list">
+            <li class="types-list">VIEW ALL</li>
+            <li class="types-list">FORMAL</li>
+            <li class="types-list">PRINTED</li>
+            <li class="types-list">PLAIN</li>
+            <li class="types-list">DENIM</li>
+            <li class="types-list">SHORT SLEEVE</li>
+            <li class="types-list">OVERSHIRT</li>
+          </ul>
+        </div>
+        <div class="women-skirt-filter">
+          <p class="women-skirt-filter">+ FILTER</p>
+        </div>
+      </div>
+      <div class="during-lockdown-message">
+        <p class="lockdownmessage-para">
+          OUR STORES ARE TEMPORARILY CLOSED, BUT WE ARE STILL AVAILABLE FOR YOU
+          AT ZARA. COM, WHERE YOU CAN ONLY PURCHASE WITH A DEFERRED DELIVERY AND
+          <br />
+          PREPAID PAYMENT. <br />
+          RETURN TIMEFRAMES ARE EXTENDED UP TO 30 DAYS AFTER THE REOPENING OF
+          OUR STORES.
+        </p>
+      </div>
+      <div class="container-womenskirt-image">
+        <% items.rustic.forEach(item=> {%>
+<div class="women-skirt-imgage">
+          <img class="image-skirt" src="/static/image/<%= item.imgName %> " alt="" />
+        </div>
+        <div class="rusticshirt">
+          <h1 class="rusticshirt-h1">
+           <%= item.details %> 
+          </h1>
+          <p class="colors-rustic">
+            COLORS/ <br />
+            <span class="colors-name">White,Dark,Navy,Light Blue</span>
+          </p>
+          <p class="lightweight">
+            Lightweight relaxed fit shirt featuring a button-down collar
+          </p>
+        </div>
+
+      <% }); %> 
+        
+      </div>
+      <div class="women-skirt-options" id="womenshirt-id">
+        <% items.shirts.forEach(item => {%>
+          <div class="container-option-images">
+            <img
+              class="shirts-color"src="/static/image/<%= item.imgName %> " alt=""class="whiteshirt-image"/><br/>
+            <span class="more-color-options">+4 COLOURS</span> <br />
+            <span href="#" class="relaxed-cotton-anchor"><%= item.details %> </span>
+            <br />
+            <span class="shirt-prices"><%= item.price %> </span>
+          </div>
+      <% }); %> 
+    
+      </div>
+    </div>
+    <div class="container-choose-size-main" id="chooseshirt-id">
+      <div class="container-choose-size-nav">
+        <div class="burger-woman-skirt" id="burgur-id">
+          <hr class="womenskirthr" />
+          <hr class="womenskirthr" />
+          <hr class="womenskirthr" />
+        </div>
+
+        <!-- Menu page start -->
+        <div class="container-menu-content" id="menu-id">
+          <!-- man collection start-->
+          <div class="container-man-content" id="man-collection-id">
+            <h1 class="collections-heading">COLLECTION</h1>
+            <h1 class="collections-heading">SHOES & BAGS</h1>
+            <h1 class="collections-heading">STORIES</h1>
+            <div class="container-join">
+              <h1 class="collections-heading">JOIN LIFE</h1>
+              <p class="men-women-info-para" href="">+ INFO</p>
+            </div>
+          </div>
+          <!-- man collection page end -->
+          <!-- woman collection page start -->
+          <div class="container-men-women-content" id="woman-collection-id">
+            <h1 class="collections-heading">COLLECTION</h1>
+            <h1 class="collections-heading">SHOES & BAGS</h1>
+            <h1 class="collections-heading">STORIES</h1>
+            <div class="container-join">
+              <h1 class="collections-heading">JOIN LIFE</h1>
+              <p class="men-women-info-para" href="">+ INFO</p>
+            </div>
+          </div>
+          <!-- woman collection page end -->
+          <!-- kid collection start -->
+          <div class="container-kid-menu-collection" id="kid-collection-id">
+            <div class="container-kids">
+              <h1 class="kids-collection-menu">GIRL</h1>
+              <p class="kids-para">6-14 years</p>
+            </div>
+            <div class="container-kids">
+              <h1 class="kids-collection-menu">BOY</h1>
+              <p class="kids-para">6-14 years</p>
+            </div>
+            <div class="container-kids">
+              <h1 class="kids-collection-menu">BABY GIRL</h1>
+              <p class="kids-para">3 months-5 years</p>
+            </div>
+            <div class="container-kids">
+              <h1 class="kids-collection-menu">BABY BOY</h1>
+              <p class="kids-para">3 months-5 years</p>
+            </div>
+            <h1 class="kids-collection-menu">ACCESSORIES</h1>
+            <h1 class="kids-collection-menu">SHOES & BAGS</h1>
+            <div class="container-kids">
+              <h1 class="kids-collection-menu">STORIES</h1>
+              <p class="kids-para-new">NEW</p>
+              <div class="container-join">
+                <h1 class="collections-heading">JOIN LIFE</h1>
+                <p class="men-women-info-para" href="">+ INFO</p>
+              </div>
+            </div>
+          </div>
+          <!-- kid collection end -->
+          <div class="container-close-button">
+            <button class="menu-close-button" onclick="crossfunction()">
+              X
+            </button>
+          </div>
+          <div class="container-categery">
+            <div
+              class="container-man-women-kid-collection-h1"
+              id="woman-height"
+            >
+              <h1 class="man-women-kid-collection" id="woman-id">WOMAN</h1>
+              <!-- woman collection start -->
+              <div class="container-collection">
+                <div class="container-woman" id="collection-height">
+                  <div class="container-menu-woman-h1">
+                    <h1 class="container-menu-woman-h1">COLLECTION</h1>
+                  </div>
+                  <ul class="collection-ul-woman">
+                    <li>DRESSESS | JUMPSUITS</li>
+                    <li>SHIRTS | TOPS</li>
+                    <li>TROUSERS</li>
+                    <li>T-SHIRTS</li>
+                    <li>JEANS</li>
+                    <li>SHORTS</li>
+                    <li>BLAZERS</li>
+                    <li><a href="/static/womenskirt.html"> SKIRTS </a></li>
+                    <li>TRENCH | JACKETS</li>
+                    <li>SWEATSHIRTS</li>
+                    <li>KNITWEAR</li>
+                    <li>COAT</li>
+                    <li>SHOES</li>
+                    <li>BAGS</li>
+                    <li>ACCESSORIES</li>
+                    <li>SUITS</li>
+                    <li>BEAUTY</li>
+                    <li>MUM</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- woman collection End -->
+            </div>
+            <div class="container-man-women-kid-collection-h1">
+              <h1 class="man-women-kid-collection" id="man-id">MAN</h1>
+            </div>
+            <div class="container-man-women-kid-collection-h1">
+              <h1 class="man-women-kid-collection" id="kid-id">KIDS</h1>
+            </div>
+            <div class="container-man-women-kid-stories-h1">
+              <h1 class="man-women-kid-collection" id="Shoes-bag-id">
+                SHOES & BAGS
+              </h1>
+            </div>
+            <div class="container-man-women-kid-join-h1">
+              <h1 class="man-women-kid-collection" id="join-id">
+                JOIN LIFE
+              </h1>
+            </div>
+            <div class="container-man-women-kid-info-h1">
+              <h1 class="man-women-kid-info" id="info-id">
+                + INFO
+              </h1>
+            </div>
+          </div>
+
+          <div class="container-menu-content-button">
+            <hr class="menu-content-hr" />
+            <div class="container-home-my-accountr-anchor">
+              <div class="container-home">
+                <a class="home-my-account" id="home-id">HOME</a>
+              </div>
+              <div class="container-my-account">
+                <a class="home-my-account" href="login/index.html"
+                  >MY ACCOUNT</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Menu page end -->
+
+        <div class="container-search-choose-size">
+          <p class="womenskirtsearchpara">
+            SEARCH
+            <input type="text" class="womenskirtsearchinput" />
+          </p>
+        </div>
+        <div class="choose-size-login-help">
+          <div class="women-skirt-login">
+            <p class="womenskirt-loginhelp-para">LOGIN</p>
+            <p class="womenskirt-loginhelp-para">HELP</p>
+          </div>
+        </div>
+
+        <div class="choose-size-skirt-cart">
+          <img
+            class="women-skirt--cart-image"
+            src="/static/image/icons8-online-shopping-100.png"
+            alt=""
+            id="shopping-cart-id"
+          />
+        </div>
+
+        <!-- CART PAGE START -->
+        <div class="conatiner-cart-collection" id="added-item">
+          <div class="container-clothes">
+            <div class="cart-collection-images">
+              <img src="" alt="" class="cart-images currentcarimage"/>
+              <a href="" class="cart-anchor-clothes-details currentanchor"></a>
+              <p class="cart-collecton-span currentprice"></p>
+            </div>
+          </div>
+          <div class="container-clothes"> 
+            <div class="cart-collection-images">
+              <img src="" alt="" class="cart-images" />
+              <a href="" class="cart-anchor-clothes-details"></a>
+                <p class="cart-collecton-span"></p>
+              </a>
+            </div>
+          </div>
+          <div class="container-clothesss">
+            <div class="cart-collection-imagesss">
+              <img src="" alt="" class="cart-images" />
+              <a href="" class="cart-anchor-clothes-details"></a>
+                <p class="cart-collecton-span"></p>
+              </a>
+            </div>
+          </div>
+          <div class="see-shopping-basket-container">
+            <a class="see-shopping-cart-button" href="/static/cartinside.html">
+              SEE SHOPPING BASKET
+            </a>
+          </div>
+        </div>
+        <!-- CART PAGE END -->
+      </div>
+      <div class="shirts-size">
+        <div class="container-choose-shirt-size" id="skyblueimg-id">
+          <% items.shirtsImg.forEach(item => { %>
+           <img
+            src="<%=item.shirtImg%>"
+            alt=""
+            class="shirts-size-images"
+          />  
+         <% }); %> 
+         
+        
+        </div>
+        <div class="material-details">
+          <div class="material-details-h1-container" id="replace-view-more">
+            <h1 class="material-h1">
+              RELAXED COTTON/LINEN SHIRT
+            </h1>
+            <span class="choose-shirt-price">
+              2590.00    </span> <br />
+              <span class="including-tax">MRP incl. of all taxes</span>
+        
+            <p class="about-material" id="about-more-id">
+              LIGHT BLUE - 8211/302 <br />
+              Lightweight relaxed fit shirt made of a linen blend. Featuring a
+              button-down collar, long sleeves with inner tabs and a button-up
+              front. JOIN LIFE Care for fiber: at least 50% Sustainably Grown
+              European Linen. Sustainably Grown European Linen is naturally
+              irrigated and does not use genetically modified seeds or
+              defoliants. An environmentally and water-friendly process.
+            </p>
+            <div class="view-more-container" id="view-more-id">
+              <p class="view-more-para">View more</p>
+            </div>
+            <hr class="choose-size" />
+            <div class="container-choose-size-here" id="size-id">
+              <ul class="size-list">
+                <li class="sizes-list-here current-size-list" id="size-S-id">
+                  S
+                </li>
+                <li class="sizes-list-here" id="size-M-id">M</li>
+                <li class="sizes-list-here" id="size-L-id">L</li>
+                <li class="sizes-list-here" id="size-XL-id">XL</li>
+                <li class="sizes-list-here" id="size-XXL-id">XXL</li>
+              </ul>
+            </div>
+            <hr class="choose-size" />
+            <div class="container-your-size">
+              <a class="your-choosed-size">MY SIZE IS</a>
+
+              <div class="your-choosed-size-here">
+                <p class="size-no" id="showsize-id">M</p>
+              </div>
+            </div>
+            <div class="add-your-favourite">
+              <button class="add-your-favourite-button">
+                ADD
+              </button>
+            </div>
+
+            <div class="contaimer-more-colors">
+              <h1 class="more-colors">4 MORE COLORS</h1>
+            </div>
+
+            <div class="container-more-colors">
+              <% items.morecolors.forEach(item => { %> 
+              <div class="choose-color-image" id= <% item.id %> >                
+           <img src="/static/image/<%=item.imgName%> "alt=""class="choose-more-colors"/>
+           <p class="colors-para"> <%=item.details%> </p>
+              </div>
+          <% }); %> 
+            </div>
+            <div class="composition-care">
+              <ul class="composition-list">
+                <li class="compostion-care-list">COMPOSITION AND CARE</li>
+                <li class="compostion-care-list">FIND YOUR SIZE</li>
+                <li class="compostion-care-list">
+                  DELIVERY,EXCHANGE AND RETURNS
+                </li>
+                <li class="compostion-care-list">SHARE</li>
+              </ul>
+            </div>
+
+            <div class="check-store-availabilty">
+              <p class="check-store-availability-para">
+                The “Check in-store availability” option is temporarily
+                unavailable
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="women-skirt-options chooseshirtoptions">
+        <% items.shirts.forEach(item=>{%> 
+        <div class="container-option-images" data-item-id="<%= item.id %> ">
+          <img
+            class="shirts-color choose-shirt-size"
+            src="/static/image/<%= item.imgName %> "
+            alt=""
+            class="whiteshirt-image"
+          /><br/>
+          <span class="more-color-options">+4 COLOURS</span> <br />
+          <span class="relaxed-cotton-anchor">
+            <%= item.details %> 
+          </span>
+          <br />
+          <span class="shirt-prices choose-shirt-size"> <%= item.price %> </span> <br />
+          <span class="including-tax">MRP incl. of all taxes</span>
+          <div class="container-choose-size-and-add">
+            <div class="container-add-size">
+              <p class="add-size">Choose a size</p>
+            </div>
+            <div class="container-add-items">
+              <button class="add-item-button">ADD</button>
+            </div>
+          </div>
+        </div>
+      <% }); %>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="/static/js/chooseshirt.js"></script>
+<!-- <script src="/static/js/mini.js"></script> -->

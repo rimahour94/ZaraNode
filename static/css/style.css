@@ -1,0 +1,1002 @@
+body {
+  background-color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+
+  /* overflow-y: scroll; */
+  line-height: 24.62px;
+  width: 100%;
+}
+/* Login for mobile start */
+.container-login-register {
+  display: none;
+}
+/* Login for mobile end */
+/* header start */
+.container-login-header {
+  display: flex;
+}
+.zara__menu-line {
+  width: 6%;
+  margin-bottom: 0;
+  margin: 10px;
+  margin-left: 16px;
+  color: black;
+  cursor: pointer;
+}
+.zara__hr {
+  font-size: 9px;
+  display: flex;
+  margin-bottom: 7px;
+  border: 0.6px solid rgb(87, 85, 87);
+}
+.container-nav {
+  position: fixed;
+  margin-left: -8px;
+  top: 0;
+  z-index: 1;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-man-women-kid-stories-h1 {
+  display: none;
+}
+.container-man-women-kid-join-h1 {
+  display: none;
+}
+.zara__search-image {
+  width: 18%;
+  margin-top: 14px;
+  margin-left: 27px;
+}
+.zara__search-field {
+  width: 35%;
+  margin-right: -27px;
+}
+
+.login-help-para {
+  margin-left: 8px;
+}
+/* .login-help-para {
+  margin-left: 5px;
+} */
+.container-carousel-button {
+  display: none;
+}
+.container-zara--animation {
+  width: 100%;
+
+  /* margin-left: 114px; */
+  /* background: orange; */
+  height: 658px;
+  /* height: 700px; */
+
+  /* margin-top: 0px; */
+  text-align: center;
+}
+.zara--animation-social-distance-para {
+  font-size: 0.4em;
+  display: block;
+}
+.zara--animation-after-social-distance-para {
+  display: block;
+}
+.zara--animation-para {
+  font-family: inherit;
+  font-size: 55px;
+  padding-top: 300px;
+  margin: auto;
+}
+/* footer start */
+.footer-men-women-kids {
+  position: fixed;
+  right: -64px;
+  bottom: 0%;
+  /* border: 2px solid; */
+  width: 94%;
+  margin-left: 4px;
+  height: 35px;
+  /* margin-bottom: 13px; */
+  /* text-align: center; */
+}
+.men-women-kid-anchor {
+  color: black;
+  font-size: 17px;
+  margin-left: 18px;
+  color: black;
+  font-weight: 800;
+  text-decoration: none;
+}
+/* cart page start */
+.conatiner-cart-collection {
+  border: 1px solid black;
+  display: block;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  background-color: white;
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 18%;
+  height: 380px;
+  position: absolute;
+  left: 64%;
+  top: 15%;
+}
+/* cart page end */
+/* home page containers start*/
+
+.zara-content {
+  width: 70%;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 210px;
+  /* margin-top: 167px; */
+  line-height: 42px;
+  margin-left: 67px;
+}
+.container-man-women-kid-info-h1 {
+  display: none;
+}
+.content-para {
+  font-size: 10px;
+  line-height: 19px;
+  margin-top: -23px;
+  margin-left: 0px;
+  width: 100%;
+}
+.content-view {
+  border: 1px solid;
+  width: 24%;
+  padding: 7px;
+  margin-left: 150px;
+}
+.social-icons-ul {
+  display: flex;
+  list-style: none;
+  /* border: 2px solid; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.container-dotted-main {
+  display: none;
+}
+.container-social-icons {
+  width: 68%;
+  margin-top: 94px;
+  margin-left: 35px;
+  font-size: 10px;
+  font-weight: 500;
+}
+.join-our-newsletter-h1 {
+  font-size: 27px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top:316px;
+}
+.container-join-our-newsletter {
+  padding-top: 200px;
+  height: 691px;
+}
+.social-icon-list {
+  padding-left: 30px;
+}
+
+.collection-new {
+  background-image: url("/static/image/mm1.jpg");
+  color: white;
+  background-position: center;
+}
+.shoes-new {
+  background-image: url("/static/image/ms.jpg");
+  background-position: center;
+  color: white;
+}
+.stories-new {
+  background-image: url("/static/image/mst.jpg");
+  background-position: center;
+  color: white;
+}
+.join-new {
+  background-image: url("/static/image/mjo.jpg");
+  background-position: center;
+  color: white;
+}
+.kid-collection-new {
+  background-image: url("/static/image/kc.jpg");
+  background-position: center;
+  color: white;
+}
+.kid-shoes-new {
+  background-image: url("/static/image/ksh.jpg");
+  background-position: center;
+  color: white;
+}
+.kid-stories-new {
+  background-image: url("/static/image/kst.jpg");
+  background-position: center;
+  color: white;
+}
+.kid-join-new {
+  background-image: url("/static/image/kjo.jpg");
+  background-position: center;
+  color: white;
+}
+
+/* home page containers end */
+
+/* footer end */
+/* menu start */
+.container-menu-content {
+  background-color: black;
+  color: white;
+  width: 105%;
+  overflow-x: hidden;
+  /* display: none; */
+  right: 100%;
+  /* left: 105%; */
+  position: absolute;
+  font-family: sans-serif;
+  height: 800px;
+  transition: right 0.3s;
+
+  /* transition-duration: 2s; */
+}
+.container-man-button {
+  display: none;
+}
+.container-close-button {
+  text-align: right;
+}
+.menu-close-button {
+  color: white;
+  margin-top: 14px;
+  font-size: 21px;
+  background: black;
+  font-weight: 300;
+  border: 2px solid black;
+}
+
+.container-categery {
+  display: flex;
+  width: 63%;
+  margin-left: 0;
+  margin-top: -36px;
+  background: black;
+  color: white;
+}
+/* .container-man-women-kid-collection-h1 {
+    opacity: 0.3;
+  } */
+.man-women-kid-collection {
+  margin-left: 25px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.men-women-info-para {
+  color: white;
+  margin-top: 80px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.kids-info-para {
+  color: white;
+}
+.container-menu-content-button {
+  position: fixed;
+  bottom: 0%;
+
+  background-color: black;
+  height: 40px;
+}
+
+.container-home {
+  margin-left: 35px;
+}
+.menu-content-hr {
+  margin-left: 34px;
+  width: 90%;
+}
+.home-my-account {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+.container-home-my-accountr-anchor {
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.container-join {
+  margin-top: 50px;
+}
+.container-my-account {
+  margin-left: 207px;
+}
+.container-men-women-content {
+  /* margin-left: 25px; */
+  position: absolute;
+  /* margin-left: 40px; */
+
+  width: 70%;
+  left: -100%;
+  transition: left 0.7s;
+  top: 7%;
+  background-color: pink;
+  /* display: none; */
+}
+.collections-heading {
+  margin-bottom: -12px;
+}
+/* kids page start */
+.kids-collection-menu {
+  margin-bottom: -2px;
+}
+.kids-para-new {
+  font-size: 10px;
+  position: absolute;
+  margin-left: 163px;
+  margin-top: -30px;
+}
+.container-kid-menu-collection {
+  position: absolute;
+  background-color: black;
+  /* left: 05%; */
+  width: 100%;
+  top: 5%;
+  left: 100%;
+  transition: left 0.7s;
+}
+/* kids page end */
+
+/* menu end */
+/* menu man  start*/
+.container-man-content {
+  position: absolute;
+  /* margin-left: 40px; */
+  background-color: black;
+  width: 70%;
+  left: 05%;
+  transition: left 0.7s;
+  top: 7%;
+  /* display: none; */
+}
+.container-email {
+  display: none;
+}
+.container-search-field {
+  display: none;
+}
+.container-login-help {
+  display: none;
+}
+/* .Zara {
+    /* position: relative;
+    width: 100%;
+    overflow: hidden; */
+
+/*   menu man end*/
+/* Zara woman start */
+.container-zara-woman-contents {
+  /* background-color: tomato; */
+ 
+  width: 100%;
+  
+  /* transition: left 2s; */
+  /* display: none;
+  top: 0%; */
+}
+.container-zara-kid-contents {
+  width: 100%;
+
+  transition: left 2s;
+  /* display: none; */
+  /* top: 0%; */
+}
+
+.collection-woman-new {
+  background-image: url("./img/wc.jpg");
+  color: black;
+  background-position: center;
+  /* background-color: brown; */
+}
+
+.shoes-woman-new {
+  background-image: url("./img/wsh.jpg");
+  color: white;
+  background-position: center;
+}
+/* home page containers end */
+/* footer end */
+/* zara woman end */
+/* media query start */
+@media screen and (min-width: 990px) {
+  .zara__menu-line {
+    width: 2%;
+    z-index: 4;
+    margin-top: 35px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+
+  body {
+    overflow: hidden;
+  }
+  /* .zaraanimation {
+    top: 0%;
+    position: fixed;
+  } */
+  /* .kid-join-new {
+    top: 100%;
+    transition: all 2s;
+  }
+  .kid-stories-new {
+    top: 100%;
+    transition: all 2s;
+  }
+  .kid-shoes-new {
+    top: 100%;
+    transition: all 2s;
+  }
+  .kid-collection-new {
+    top: 100%;
+    transition: all 2s;
+  }
+  .kid-update-new {
+    top: 100%;
+    transition: all 2s;
+  }
+  .kid-news-new {
+    top: 100%;
+    transition: all 2s;
+  } */
+
+  .container-zara--animation {
+    position: absolute;
+    background-color: white;
+  }
+  /* .join {
+    top: 100%;
+    transition: all 2s;
+  }
+  .stories {
+    top: 100%;
+    transition: 2s;
+  }
+  .shoes {
+    top: 100%;
+    transition: 2s;
+  }
+  .collection {
+    top: 100%;
+    transition: all 2s;
+  }
+  .update {
+    top: 100%;
+    transition: all 2s;
+    pointer-events: all;
+  }
+  .news {
+    top: 100%;
+    transition: all 2s;
+    padding-top: 175px;
+  } */
+  /* woman start */
+
+  /* woman end */
+  .zara__search-field {
+    width: 13%;
+    margin-right: -10px;
+    margin-top: 34px;
+  }
+  .container-social-icons{
+     margin: auto;
+  }
+  .container-login-help {
+    display: flex;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-right: 15px;
+    margin-top: 40px;
+    justify-content: space-between;
+  }
+  .login-help-para {
+    text-decoration: none;
+    margin-left: 16px;
+    color: black;
+    cursor: pointer;
+  }
+  .zara__search-image {
+    width: 12%;
+    margin-top: 20px;
+    margin-left: 490px;
+    cursor: pointer;
+  }
+  .search-icon {
+    display: none;
+  }
+  .container-search-field {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+  }
+  .search-field-input {
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background: transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 2px solid black;
+  }
+  .zara--animation-para {
+    font-size: 110px;
+    transition: all 2s;
+    font-family: Advanta Garde;
+    /* margin-top: -100px; */
+    letter-spacing: -30px;
+    animation-name: zara;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .zara--animation-social-distance-para {
+    font-size: 12px;
+    margin-top: 57px;
+    margin-bottom: 0;
+    /* animation-name: zaraa;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate; */
+  }
+  .social-distance-para {
+    margin-top: 0;
+}
+  @keyframes zara {
+    0% {
+      letter-spacing: -30px;
+    }
+
+    100% {
+      letter-spacing: 60px;
+    }
+  }
+  .zara-content {
+    margin-left: 200px;
+  }
+  .content-view {
+    font-size: 11px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: auto;
+    width: 8%;
+    padding: 4px;
+  }
+  .collection-new {
+    background-image: center url("/static/image/DMC.jpg");
+    background-color: chocolate;
+  }
+  .stories-new {
+    background-image: center url("/static/image/DMST.jpg");
+    background-color: cornflowerblue;
+  }
+  .shoes-new {
+    background-image: no-repeat center url("/static/image/DMSH.jpg");
+    background-color: crimson;
+  }
+  .join-new {
+    background-image: center no-repeat url("/static/image/DMZO.jpg");
+    background-color: darkcyan;
+  }
+  .social-icons-ul {
+    display: flex;
+    font-size: 12px;
+    font-family: sans-serif;
+    /* margin-left: 256px; */
+    justify-content: none;
+  }
+  .container-email {
+    margin-left: 480px;
+    margin-top: 50px;
+  }
+  .email-input {
+    text-align: center;
+    line-height: 3;
+    width: 45%;
+    font-size: 16px;
+    border-top: 1px white;
+    border-right: 1px white;
+    border-left: 1px white;
+    border-bottom: 2px solid black;
+  }
+
+  .container-menu-content {
+    width: 27%;
+    background-color:rgb(188, 202, 221);
+    overflow: hidden;
+    display: block;
+    transition: all 0.7s;
+    /* left: 0%; */
+  }
+
+  .container-categery {
+    /* margin: 80px; */
+    width: 100%;
+    overflow-y: hidden;
+    margin-left: 0px;
+    margin-top: 100px;
+    display: grid;
+    color: black;
+    background-color: rgb(194, 200, 206);
+    
+  }
+
+  .container-menu-content-button {
+    display: none;
+  }
+  .container-man-content {
+    display: none;
+  }
+  .container-men-women-content {
+    display: none;
+  }
+  .container-kid-menu-collection {
+    display: none;
+  }
+  .container-close-button {
+    width: 10%;
+    display: none;
+    background-color: lightcoral;
+  }
+  
+  .man-women-kid-collection {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 0px;
+    cursor: pointer;
+  }
+  .container-man-women-kid-stories-h1 {
+    display: block;
+  }
+  .container-man-women-kid-join-h1 {
+    margin-top: 30px;
+    display: block;
+  }
+  .container-man-women-kid-info-h1 {
+    display: block;
+    margin-top: 60px;
+  }
+  .man-women-kid-info {
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .container-social-id {
+    /* background-color: red; */
+    width: 20%;
+    bottom: 181px;
+    margin: auto;
+    position: relative;
+  }
+  .container-footer {
+    display: none;
+  }
+  .container-carousel-button {
+    display: block;
+    margin-top: 230px;
+  }
+  .container-carousel-update-button {
+    display: block;
+    /* margin-top: 190px; */
+  }
+
+  .carousel-button {
+    font-size: 50px;
+    position: absolute;
+    top: 82%;
+    transition: top 2s;
+    left: 47%;
+    width: 5%;
+    background-color: white;
+    border: 2px solid white;
+    outline: none;
+  }
+  .carousel-update-button {
+    font-size: 50px;
+    width: 5%;
+    margin-top: 120px;
+    background-color: white;
+    border: 2px solid white;
+    outline: none;
+  }
+  .container-carousel-collection-button {
+    display: block;
+    margin-top: 100px;
+  }
+  .carousel-collection-button {
+    font-size: 50px;
+    width: 5%;
+    color: white;
+    border: 2px solid transparent;
+    background: transparent;
+    outline: none;
+  }
+  .carousel-shoes-button {
+    font-size: 50px;
+    width: 5%;
+    color: white;
+    border: 2px solid transparent;
+    background: transparent;
+    outline: none;
+  }
+  .container-carousel-shoes-button {
+    display: block;
+    margin-top: 100px;
+  }
+  .carousel-stories-button {
+    font-size: 50px;
+    width: 5%;
+    color: white;
+    border: 2px solid transparent;
+    background: transparent;
+    outline: none;
+  }
+  .container-carousel-stories-button {
+    display: block;
+    margin-top: 100px;
+  }
+  .carousel-join-button {
+    font-size: 50px;
+    width: 5%;
+    color: black;
+    border: 2px solid transparent;
+    background: transparent;
+    outline: none;
+  }
+  .container-carousel-join-button {
+    display: block;
+    margin-top: 100px;
+  }
+  .container-man-button {
+    display: block;
+  }
+  .man-section {
+    position: absolute;
+    display: none;
+    top: 46%;
+    left: 4%;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    z-index: 2;
+    border: 2px solid transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  .woman-section {
+    position: absolute;
+    top: 46%;
+    left: 87%;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    z-index: 2;
+    border: 2px solid transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  /* .woman-section-duplicate {
+    position: absolute;
+    top: 46%;
+    display: none;
+    left: 4%;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    z-index: 2;
+    border: 2px solid transparent;
+    cursor: pointer;
+  } */
+  .kids-section {
+    position: absolute;
+    top: 46%;
+    left: 87%;
+    font-size: 20px;
+    font-weight: 700;
+    display: none;
+    background: transparent;
+    z-index: 2;
+    border: 2px solid transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  .container-zara-woman-contents {
+    position: absolute;
+    /* margin-left: 100%; */
+    width: 100%;
+    left: 100%;
+    transition: all 2s;
+    display: block;
+  }
+  .container-zara-men-women-kid-contents {
+    margin-left: 0%;
+    transition: all 2s;
+  }
+  .joinwoman {
+    top: 100%;
+    transition: all 2s;
+    background-image: url("/static/image/wjo.jpg");
+  }
+  .storieswoman {
+    top: 100%;
+    transition: 2s;
+    background-color: burlywood;
+  }
+  .shoeswoman {
+    top: 100%;
+    transition: 2s;
+    background-image: url("/static/image/wsh.jpg");
+  }
+  .collectionwoman {
+    top: 100%;
+    transition: all 2s;
+    background-image: url("/static/image/wc.jpg");
+    color: white;
+  }
+  .updatewoman {
+    top: 100%;
+    transition: all 2s;
+  }
+  .container-zara-kid-contents {
+    /* margin-left: 100%;
+    width: 100%; */
+    /* margin-top: 15%;
+   
+    display: block; */
+    position: absolute;
+    transition: all 2s;
+  }
+ 
+  .container-dotted-main {
+    display: grid;
+    position: absolute;
+    z-index: 5;
+    top: 78%;
+    left: 93%;
+  }
+
+  .dotted-button {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 2px;
+    margin-top: 6px;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  /* woman collection start  */
+  .container-woman {
+    /* background-color: chocolate; */
+    margin-left: 20px;
+    color: black;
+    height:0px;
+    overflow-y: hidden;
+  }
+  /* .container-woman:hover {
+    height: 430px;
+  } */
+  .collectionMen{
+    margin-left: 4px;
+  }
+  .container-collection {
+    /* display: block; */
+    font-family: sans-serif;
+    font-size: 16px;
+    /* overflow: hidden; */
+  }
+  .collection-ul-woman {
+    list-style: none;
+    margin-left: -32px;
+    color: black;
+    font: -webkit-small-control;
+    /* height: 500px;
+    overflow-y: scroll; */
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  .collection-ul-woman li{
+    cursor: pointer;
+  }
+  .menu-collection {
+    height: 40px;
+    /* background-color: burlywood; */
+    overflow: hidden;
+    transition: all 0.7s;
+    cursor: pointer;
+  }
+
+  /* woman collection end  */
+  /* cart page start */
+  .conatiner-cart-collection {
+    border: 1px solid black;
+    display: none;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 18%;
+    height: 380px;
+    position: absolute;
+    left: 64%;
+    top: 15%;
+  }
+
+
+  .cart-images {
+    width: 17%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .cart-anchor-clothes-details {
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    margin-top: 27px;
+    margin-left: 10px;
+  }
+  .cart-collecton-span {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .see-shopping-basket-container {
+    margin-left: 18px;
+    margin-top: 15px;
+  }
+  .see-shopping-cart-button {
+    width: 90%;
+    padding: 10px;
+    background: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  /* cart page end */
+  .currentClassDot{
+    border: 1px solid black;
+    background: transparent;
+    outline: none;
+    
+    
+  }
+  .zara-anim{
+    position: fixed;
+    /* animation-name : "red"; */
+    right : 80%;
+    position : "fixed";
+    z-index: 1;
+    top : -37%;
+   
+    
+  }
+  .container-men-women-kids-compartment{
+    transition: all 2s;
+  }
+
+  /* .zara-update{
+    top : "0%";
+  } */
+}
+

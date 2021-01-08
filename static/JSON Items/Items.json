@@ -1,0 +1,114 @@
+{
+    "morecolors":[
+        {
+            "id":1,
+            "details":"Linen Shirt",
+            "price":"1209",
+            "imgName":"darkmaroon.jpg",
+            "size":"S M L XL XXL"
+        },
+        {
+            "id":2,
+            "details":"Cotton Shirt",
+            "price":"1209",
+            "imgName":"black.jpg"
+        },
+        {
+            "id":3,
+            "details":"Khaki Shirt",
+            "price":"1209",
+            "imgName":"darknavy.jpg"
+        },
+        {
+            "id":4,
+            "details":"T-Shirt",
+            "price":"1209",
+            "imgName":"whitemore.jpg"
+        }
+    ],
+
+    "rustic":[
+        {
+            
+                "id":5,
+                "details":"RUSTIC SHIRT",
+                "price":"1209",
+                "imgName":"womenhshirt.jpg"
+            
+        }
+    ],
+
+"shirts":[
+{
+    "id":6,
+    "details":"Linen SHIRT",
+    "price":"2590",
+    "imgName":"whiteshirt.jpg"
+},
+{
+    "id":7,
+    "details":"Denim SHIRT",
+    "price":"4090",
+    "imgName":"maroonshirt.jpg"
+},
+{
+    "id":8,
+    "details":"PARTY WEAR",
+    "price":"1900",
+    "imgName":"blueshirt.jpg"
+}
+,
+{
+    "id":9,
+    "details":"CASUAL SHIRT",
+    "price":"700",
+    "imgName":"skyblue.jpg"
+}
+],
+
+    "size":[
+
+       {
+           "s":"S"
+       },
+         {
+             "s":"M"
+         },
+        {
+            "s":"L"
+        },
+        {
+            "s":"XL"
+        },
+        {
+            "s":"xxl"
+        }
+        
+        ],
+        "shirtsImg":[
+            {
+                "shirtImg":""
+            },
+            {
+                "shirtImg":""
+            },
+            {
+                "shirtImg":""
+            },
+            {
+                "shirtImg":""
+            },
+            {
+                "shirtImg":""
+            },
+            {
+                "shirtImg":""
+            },
+            {
+                "shirtImg":""
+            },
+            {
+                "shirtImg":""
+            }
+        ]
+}

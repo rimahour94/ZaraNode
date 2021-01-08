@@ -1,0 +1,222 @@
+body {
+  font-family: sans-serif;
+}
+
+.login-reg {
+  display: flex;
+  margin: 137px;
+  margin-left: 250px;
+}
+.conatainer-login {
+  width: 35%;
+}
+.container-register {
+  margin-left: 153px;
+  width: 35%;
+}
+.register-para {
+  font-size: 14px;
+}
+.form-anchor-button {
+  text-decoration: none;
+  border: 2px solid;
+  position: absolute;
+  width: 19%;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+.form-anchor-container {
+  margin-top: 50px;
+}
+.lrh1 {
+  font-size: 30px;
+  font-weight: 750;
+  font-family: Franklin Gothic Medium;
+}
+.form-input {
+  font-size: 15px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid rgb(187, 184, 184);
+  transition: all 0.3s;
+}
+/* .form-input:hover {
+  line-height: 200px;
+  font-size: 10px;
+} */
+
+.form-anchor {
+  color: #302e2e;
+  font-size: 13px;
+}
+.form-button {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 40px;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  cursor: pointer;
+}
+.form-button:hover {
+  opacity: 0.8;
+}
+hr {
+  margin-top: 183px;
+  opacity: 0.5;
+  width: 98%;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-h1 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 40px;
+}
+.list {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.list:hover {
+  text-decoration: underline;
+}
+.container-copyright {
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 70px;
+}
+.english-para {
+  margin-top: -50px;
+  font-size: 16px;
+  line-height: 0;
+}
+.copyright-para {
+  color: grey;
+  font-size: 14px;
+}
+.second-hr {
+  margin-top: 10px;
+  opacity: 0.6;
+}
+.INDIA {
+  margin-left: 10px;
+  margin-bottom: 70px;
+}
+/* registration page start */
+.reg-button {
+  display: flex;
+  margin-top: 6%;
+}
+.container-register-section {
+  margin-top: -6%;
+  margin-left: 1%;
+}
+.input-main {
+  display: flex;
+}
+.class-reg-input {
+  font-size: 15px;
+  line-height: 40px;
+  width: 65%;
+  margin-bottom: 10%;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid rgb(187, 184, 184);
+}
+.class-reg-input-ryt {
+  font-size: 15px;
+  line-height: 40px;
+  width: 65%;
+  margin-bottom: 12%;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid rgb(187, 184, 184);
+}
+.input-left-check {
+  width: 2%;
+  height: 10px;
+}
+.personal-company {
+  height: 0px;
+  padding: 10px;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid;
+}
+
+.input-right {
+  margin-top: 11%;
+  margin-left: -10%;
+}
+.container-form {
+  margin-left: 22%;
+  margin-top: 5%;
+}
+.reg-form-h1 {
+  margin-left: 22%;
+  margin-top: 15%;
+  font-size: 14px;
+  font-family: Luminari;
+}
+.company {
+  margin-left: 50px;
+}
+.personal-company-span {
+  margin-left: 17px;
+  margin-top: 4px;
+}
+.form-button-register {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 40px;
+  width: 50%;
+  height: 40px;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  cursor: pointer;
+}
+.form-button-register:hover {
+  opacity: 0.9;
+}
+.reg-region {
+  font-size: 12px;
+  opacity: 0.4;
+}
+.register-footer {
+  width: 50%;
+  margin-left: 22%;
+}
+.reg-hr {
+  width: 70%;
+}
+.reg-hr-sec {
+  margin-top: 0;
+  width: 70%;
+}
+.help-register {
+  width: 100%;
+}
+.container-India-register {
+  margin-left: 14%;
+}
+.container-copyright-register {
+  margin-right: 15%;
+}
+/* registration page end */

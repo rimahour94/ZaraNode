@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZARA</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <div class="Zara" id="zara-id">
+      <div class="container-man-button">
+        <button class="man-section" id="mannext-id">MAN &#8249;</button>
+      </div>
+      <div class="container-man-button">
+        <button class="woman-section" id="womannext-id">WOMAN &#8250;</button>
+      </div>
+      <div class="container-man-button">
+        <!-- <button class="woman-section woman-section-duplicate" id="womannextdup-id">
+          WOMAN &#8250;
+        </button> -->
+      </div>
+      <div class="container-man-button">
+        <button class="kids-section" id="kidprev-id">KIDS &#8250;</button>
+      </div>
+
+      <div class="zara__container-header">
+        <div class="container-nav">
+          <div class="zara__menu-line" id="burgur-id">
+            <hr class="zara__hr" />
+            <hr class="zara__hr" />
+            <hr class="zara__hr" />
+          </div>
+          <div class="container-search-field">
+            <p class="search-field-para">SEARCH</p>
+            <input class="search-field-input" type="text" />
+          </div>
+          <!-- Menu page start -->
+          <div
+            class="container-menu-content"
+            id="menu-id"
+          >
+            <!-- man collection start-->
+            <div class="container-man-content" id="man-collection-id">
+              <h1 class="collections-heading">COLLECTION</h1>
+              <h1 class="collections-heading">SHOES & BAGS</h1>
+              <h1 class="collections-heading">STORIES</h1>
+              <div class="container-join">
+                <h1 class="collections-heading">JOIN LIFE</h1>
+                <p class="men-women-info-para" href="">+ INFO</p>
+              </div>
+            </div>
+
+            <!-- man collection page end -->
+            <!-- woman collection page start -->
+            <div class="container-men-women-content" id="woman-collection-id">
+              <h1 class="collections-heading">COLLECTION</h1>
+              <h1 class="collections-heading">SHOES & BAGS</h1>
+              <h1 class="collections-heading">STORIES</h1>
+              <div class="container-join">
+                <h1 class="collections-heading">JOIN LIFE</h1>
+                <p class="men-women-info-para" href="">+ INFO</p>
+              </div>
+            </div>
+            <!-- woman collection page end -->
+            <!-- kid collection start -->
+            <div class="container-kid-menu-collection" id="kid-collection-id">
+              <div class="container-kids">
+                <h1 class="kids-collection-menu">GIRL</h1>
+                <p class="kids-para">6-14 years</p>
+              </div>
+              <div class="container-kids">
+                <h1 class="kids-collection-menu">BOY</h1>
+                <p class="kids-para">6-14 years</p>
+              </div>
+              <div class="container-kids">
+                <h1 class="kids-collection-menu">BABY GIRL</h1>
+                <p class="kids-para">3 months-5 years</p>
+              </div>
+              <div class="container-kids">
+                <h1 class="kids-collection-menu">BABY BOY</h1>
+                <p class="kids-para">3 months-5 years</p>
+              </div>
+              <h1 class="kids-collection-menu">ACCESSORIES</h1>
+              <h1 class="kids-collection-menu">SHOES & BAGS</h1>
+              <div class="container-kids">
+                <h1 class="kids-collection-menu">STORIES</h1>
+                <p class="kids-para-new">NEW</p>
+                <div class="container-join">
+                  <h1 class="collections-heading">JOIN LIFE</h1>
+                  <p class="men-women-info-para" href="">+ INFO</p>
+                </div>
+              </div>
+            </div>
+            <!-- kid collection end -->
+            <div class="container-close-button">
+              <button class="menu-close-button" onclick="crossfunction()">
+                X
+              </button>
+            </div>
+            <div class="container-categery">
+              <div class="container-man-women-kid-collection-h1 menu-collection"
+                id="woman-height"
+              ><h1 class="man-women-kid-collection" id="woman-id">WOMAN</h1>
+               
+              </div>
+              <div class="container-man-women-kid-collection-h1">
+                <h1 class="man-women-kid-collection" id="man-id">MAN</h1>
+
+                 <!-- man collection start -->
+                 <div class="container-collection">
+                  <div class="container-woman" id="collection-height">
+                    <div class="container-menu-woman-h1">
+                      <h1 class="man-women-kid-collection collectionMen">COLLECTION</h1>
+                    </div>
+                    <ul class="collection-ul-woman">
+                      <li>JEANS</li>
+                      <li>SHIRTS</li>
+                      <li>TROUSERS</li>
+                      <li>T-SHIRTS</li>
+                      <li>SHORTS</li>
+                      <li>BLAZERS</li>
+                      <li>JACKETS</li>
+                      <li>SWEATSHIRTS</li>
+                      <li>SHOES</li>
+                      <li>BAGS</li>
+                      <li>ACCESSORIES</li>
+                      <li>SUITS</li>
+                      <li>JEANS</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- man collection End -->
+
+              </div>
+              <div class="container-man-women-kid-collection-h1">
+                <h1 class="man-women-kid-collection" id="kid-id">KIDS</h1>
+              </div>
+              <div class="container-man-women-kid-stories-h1">
+                <h1 class="man-women-kid-collection" id="Shoes-bag-id">
+                  SHOES & BAGS
+                </h1>
+              </div>
+              <div class="container-man-women-kid-join-h1">
+                <h1 class="man-women-kid-collection" id="join-id">
+                  JOIN LIFE
+                </h1>
+              </div>
+              <div class="container-man-women-kid-info-h1">
+                <h1 class="man-women-kid-info" id="info-id">
+                  + INFO
+                </h1>
+              </div>
+            </div>
+
+            <div class="container-menu-content-button">
+              <hr class="menu-content-hr" />
+              <div class="container-home-my-accountr-anchor">
+                <div class="container-home">
+                  <a class="home-my-account" id="home-id">HOME</a>
+                </div>
+                <div class="container-my-account">
+                  <a class="home-my-account" href="login/index.html"
+                    >MY ACCOUNT</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Menu page end -->
+
+          <div class="zara__search-field">
+            <img
+              class="zara__search-image search-icon"
+              src="/static/image/icons8-search-100.png"
+              alt=""
+            />
+            <img
+              class="zara__search-image"
+              src="/static/image/icons8-online-shopping-100.png"
+              alt=""
+            />
+          </div>
+          <div class="container-login-help">
+            <a class="login-help-para" href="/static/login.html">LOG IN</a>
+            <a class="login-help-para" href="">HELP</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- man woman kids start -->
+      <div class="container-dotted-main">
+        <button class="dotted-button currentClassDot" id="dotzara"></button>
+
+        <button class="dotted-button" id="dotupdate"></button>
+
+        <button class="dotted-button" id="dotcollection"></button>
+
+        <button class="dotted-button" id="dotshoes"></button>
+
+        <button class="dotted-button" id="dotstories"></button>
+
+        <button class="dotted-button" id="dotjoin"></button>
+        
+        <button class="dotted-button" id="dotjoinNews"></button>
+      </div>  
+
+      <div class="container-men-women-kids-compartment">
+
+      <div class="container-zara-men-women-kid-contents currentslideWhole" id="zara-man-page-id">
+         
+        <div class="container-zara--animation zaraanimation currentslide"
+          id="animation-zara"
+        >
+          <p class="zara--animation-para" id="zaraanimation-id">Z A R A</p>
+          <div class="container-carousel-button" id="carouselzara-id">
+            <button class="carousel-button" id="zara-anim-button-id">V</button>
+          </div>
+          <div class="container-social-id" id="social-id">
+            <p class="zara--animation-social-distance-para">
+              RESPECTING SOCIAL DISTANCING
+            </p>
+            <p class="zara--animation-social-distance-para">
+              BUT STAYING CLOSER THAN EVER
+            </p>
+          </div>
+        </div>
+
+       
+        <div class="container-zara--animation update" id="zara-carousel-update">
+          <h1 class="zara-content">AN UPDATE FROM ZARA</h1>
+          <p class="content-para">
+            We would like share with you the action we are taking <br />
+            in light of the current situation and temporary closer of our
+            stories.
+          </p>
+          <p class="content-view">VIEW</p>
+          <div class="container-carousel-update-button" id="carouselupdate-id">
+            <button class="carousel-update-button" id="update-anim-button-id">
+              V
+            </button>
+          </div>
+        </div>
+
+        <div class="container-zara--animation collection collection-new"
+          id="zara-carousel-collection"
+        >
+          <img src="" alt="" />
+          <h1 class="zara-content">COLLECTION</h1>
+          <p class="content-para">
+            Discover the season's new collection built around <br />
+            staple pieces and trend focused items. <br />
+            Men's Spring Summer Collection
+          </p>
+          <p class="content-view">VIEW</p>
+          <div
+            class="container-carousel-collection-button"
+            id="carouselcollection-id"
+          >
+            <button
+              class="carousel-collection-button"
+              id="collection-anim-button-id"
+            >
+              V
+            </button>
+          </div>
+        </div>
+        <div class="container-zara--animation shoes shoes-new"
+          id="zara-carousel-shoes"
+        >
+          <img src="" alt="" />
+          <h1 class="zara-content">SHOES & BAGS</h1>
+          <p class="content-para">
+            Explore the new collection of Shoes & Bags <br />
+            Spring Summer Man Collection
+          </p>
+          <p class="content-view">VIEW</p>
+          <div class="container-carousel-shoes-button" id="carouselshoes-id">
+            <button class="carousel-shoes-button" id="shoes-anim-button-id">
+              V
+            </button>
+          </div>
+        </div>
+
+        <div class="container-zara--animation stories stories-new"
+          id="zara-carousel-stories"
+        >
+          <img src="" alt="" />
+          <h1 class="zara-content">STORIES</h1>
+          <p class="content-para">
+            check out our stories focused on our tailoring pieces
+          </p>
+          <p class="content-view">VIEW</p>
+          <div
+            class="container-carousel-stories-button"
+            id="carouselstories-id"
+          >
+            <button class="carousel-stories-button" id="stories-anim-button-id">
+              V
+            </button>
+          </div>
+        </div>
+        <div class="container-zara--animation join join-new"
+          id="zara-carousel-join"
+        >
+          <img src="" alt="" />
+          <h1 class="zara-content">JOIN LIFE</h1>
+          <p class="content-view">VIEW</p>
+          <div class="container-carousel-join-button" id="carouseljoin-id">
+            <button class="carousel-join-button" id="join-anim-button-id">
+              V
+            </button>
+          </div>
+        </div>
+        <div class="container-zara--animation news" id="zara-carousel-news">
+          <h1 class="join-our-newsletter-h1">JOIN OUR NEWSLETTER</h1>
+          <div class="container-email">
+            <input
+              class="email-input"
+              type="text"
+              placeholder="Enter your email address here"
+            />
+          </div>
+          <div class="container-social-icons">
+            <ul class="social-icons-ul">
+              <li class="social-icon-list">INSTAGRAM</li>
+              <li class="social-icon-list">FACEBOOK</li>
+              <li class="social-icon-list">TWITTER</li>
+              <li class="social-icon-list">PINTEREST</li>
+              <li class="social-icon-list">YOUTUBE</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+<!-- Woman page start -->
+<div class="container-zara-woman-contents" id="zara-woman-page-id">
+  <div class="container-zara--animation zaraanimation currentslideWomen">
+    <p class="zara--animation-para" id="zaraanimation-woman-id">ZARA</p>
+    <p class="zara--animation-social-distance-para">
+      RESPECTING SOCIAL DISTANCING
+    </p>
+    <p class="zara--animation-after-social-distance-para">
+      BUT STAYING CLOSER THAN EVER
+    </p>
+    <div class="container-carousel-button" id="carouselzara-id">
+      <button class="carousel-button" id="zara-anim-woman-button-id">
+        V
+      </button>
+    </div>
+  </div>
+  <div class="container-zara--animation updatewoman"
+    id="zara-carousel-womanupdate"
+  >
+    <h1 class="zara-content">AN UPDATE FROM ZARA</h1>
+    <p class="content-para">
+      In light of the current situation our stores and online shop are
+      temporarily closed. <br />
+      you can continue to browse our collection at zara.com.
+    </p>
+    <p class="content-view">VIEW</p>
+    <div class="container-carousel-update-button" id="carouselupdate-id">
+      <button class="carousel-update-button" id="update-woman-button-id">
+        V
+      </button>
+    </div>
+  </div>
+  <div class="container-zara--animation collectionwoman collection-woman-new"
+    id="zara-carousel-woman-collection"
+  >
+    <img src="" alt="" />
+    <h1 class="zara-content">COLLECTION</h1>
+    <p class="content-para">
+      Discover this week the latest pieces from our latest collection
+      <br />
+      Spring Summer 2020 Woman <br />
+      Selected pieces with new pictures curated for you.
+    </p>
+    <p class="content-view">VIEW</p>
+    <div
+      class="container-carousel-collection-button"
+      id="carouselcollection-id"
+    >
+      <button
+        class="carousel-collection-button"
+        id="collection-woman-button-id"
+      >
+        V
+      </button>
+    </div>
+  </div>
+  <div class="container-zara--animation shoeswoman shoes-woman-new"
+    id="zara-carousel-woman-shoes"
+  >
+    <img src="" alt="" />
+    <h1 class="zara-content">SHOES & BAGS</h1>
+    <p class="content-para">
+      Explore the new collection of Shoes & Bags <br />
+      Spring Summer 2020 women <br />
+      Selected peices with new pictures curated for you
+    </p>
+    <p class="content-view">VIEW</p>
+    <div class="container-carousel-shoes-button" id="carouselshoes-id">
+      <button class="carousel-shoes-button" id="shoes-woman-button-id">
+        V
+      </button>
+    </div>
+  </div>
+
+  <div class="container-zara--animation storieswoman"
+    id="zara-carousel-woman-stories"
+  >
+    <h1 class="zara-content">STORIES</h1>
+    <p class="content-view">VIEW</p>
+    <div
+      class="container-carousel-stories-button"
+      id="carouselstories-id"
+    >
+      <button
+        class="carousel-stories-button"
+        id="stories-woman-button-id"
+      >
+        V
+      </button>
+    </div>
+  </div>
+  <div class="container-zara--animation joinwoman"
+    id="zara-carousel-woman-join"
+  >
+    <img src="" alt="" />
+    <h1 class="zara-content">JOIN LIFE</h1>
+    <p class="content-view">VIEW</p>
+
+    <div class="container-carousel-join-button" id="carouseljoin-id">
+      <button class="carousel-join-button" id="join-woman-button-id">
+        V
+      </button>
+    </div>
+  </div>
+</div>
+      <!-- Woman page end -->
+
+      <!-- kid page start -->
+      <div class="container-zara-kid-contents" id="zara-kid-page-id">
+        <div class="container-zara--animation currentslideKid">
+          <p class="zara--animation-para" id="zaraanimation-kid-id">ZARA</p>
+          <p class="zara--animation-social-distance-para">
+            RESPECTING SOCIAL DISTANCING
+          </p>
+          <p class="zara--animation-after-social-distance-para">
+            BUT STAYING CLOSER THAN EVER
+          </p>
+          <div class="container-carousel-button" id="carouselzara-id">
+            <button class="carousel-button" id="zara-anim-kid-button-id">
+              V
+            </button>
+          </div>
+        </div>
+        <div class="container-zara--animation kid-update-new"
+          id="zara-carousel-kidupdate"
+        >
+          <h1 class="zara-content">AN UPDATE FROM ZARA</h1>
+          <p class="content-para">
+            In light of the current situation our stores and online shop are
+            temporarily closed.You can continue to browse our collection at
+            zara.com
+          </p>
+          <p class="content-view">VIEW</p>
+          <div class="container-carousel-update-button" id="carouselupdate-id">
+            <button class="carousel-update-button" id="update-kid-button-id">
+              V
+            </button>
+          </div>
+        </div>
+
+        <div class="container-zara--animation kid-collection-new"
+          id="zara-carousel-kid-collection"
+        >
+          <img src="" alt="" />
+          <h1 class="zara-content">COLLECTION</h1>
+          <p class="content-para">
+            Discover this week the latest pieces from our latest collection
+            Spring Summer 2020 Kids Selected pieces with new pictures curated
+            for you.
+          </p>
+          <p class="content-view">VIEW</p>
+          <div
+            class="container-carousel-collection-button"
+            id="carouselcollection-id"
+          >
+            <button
+              class="carousel-collection-button"
+              id="collection-kid-button-id"
+            >
+              V
+            </button>
+          </div>
+        </div>
+        <div class="container-zara--animation kid-shoes-new"
+          id="zara-carousel-kid-shoes"
+        >
+          <img src="" alt="" />
+          <h1 class="zara-content">SHOES & BAGS</h1>
+          <p class="content-para">
+            Explore the new collection of Shoes & Bags Spring Summer 2020 Kids
+            Selected peices with new pictures curated for you
+          </p>
+          <p class="content-view">VIEW</p>
+          <div class="container-carousel-shoes-button" id="carouselshoes-id">
+            <button class="carousel-shoes-button" id="shoes-kid-button-id">
+              V
+            </button>
+          </div>
+        </div>
+
+        <div class="container-zara--animation kid-stories-new"
+          id="zara-carousel-kid-stories"
+        >
+          <img src="" alt="" />
+          <h1 class="zara-content">STORIES</h1>
+          <p class="content-view">VIEW</p>
+          <div
+            class="container-carousel-stories-button"
+            id="carouselstories-id"
+          >
+            <button class="carousel-stories-button" id="stories-kid-button-id">
+              V
+            </button>
+          </div>
+        </div>
+        <div class="container-zara--animation kid-join-new"
+          id="zara-carousel-kid-join"
+        >
+          <img src="" alt="" />
+          <h1 class="zara-content">JOIN LIFE</h1>
+          <p class="content-view">VIEW</p>
+          <div class="container-carousel-join-button" id="carouseljoin-id">
+            <button class="carousel-join-button" id="join-kid-button-id">
+              V
+            </button>
+          </div>
+        </div>
+
+        <div  class="container-zara--animation kid-news-new"
+          id="zara-carousel-kid-news"
+        >
+          <h1 class="join-our-newsletter-h1">JOIN OUR NEWSLETTER</h1>
+          <div class="container-social-icons">
+            <ul class="social-icons-ul">
+              <li class="social-icon-list">INSTAGRAM</li>
+              <li class="social-icon-list">FACEBOOK</li>
+              <li class="social-icon-list">TWITTER</li>
+              <li class="social-icon-list">PINTEREST</li>
+              <li class="social-icon-list">YOUTUBE</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- kid page end-->
+    </div>
+      
+      <!-- footer start -->
+      <div class="container-footer" id="footer-id">
+        <footer class="footer-men-women-kids">
+          <a href="" class="men-women-kid-anchor" id="zara-man">MAN</a>
+          <a class="men-women-kid-anchor" id="zara-woman">WOMEN</a>
+          <a href="" class="men-women-kid-anchor" id="zara-kids">KIDS</a>
+        </footer>
+      </div>
+      <!-- footer end -->
+      <!-- Log in start -->
+
+      <!-- Log in page end -->
+      <!-- Register Page start -->
+
+      <!-- Register Page end -->
+    </div>
+  </body>
+</html>
+ <script src="/static/js/menu.js"></script>
+<!--<script src="/static/js/home.js"></script>
+<script src="/static/js/desktop.js"></script>
+<script src="/static/js/woman.js"></script>
+<script src="/static/js/kid.js"></script> -->
+<script src="/static/js/dotted.js"></script>
